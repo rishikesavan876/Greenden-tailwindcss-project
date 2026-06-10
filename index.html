@@ -14,7 +14,7 @@
     <nav class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-10"> 
         <h1 class="text-xl font-bold">Greenden</h1>
 
-        <svg class="w-6 h-6 md:hidden hover:clik-ui-list cursor-pointer" xmlns="http://www.w3.org/2000/svg " fill="none" viewBox="0 0 24 24"
+        <svg id="menuicon" class="w-6 h-6 md:hidden hover:clik-ui-list cursor-pointer" xmlns="http://www.w3.org/2000/svg " fill="none" viewBox="0 0 24 24"
             stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -33,6 +33,24 @@
             </li>
         </u1>
     </nav>
+    <!--sidenavbar-->
+    <section id="sidnav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right: -50%;">
+              <div class="text-right p-5 ">
+                <p id="closeNav" class="inline cursor-pointer">X</p>
+              </div>
+        <u1 class="flex-col gap-10 text-gray-600 list-none text-center ">
+            <li>
+                <a class="hover:underline hover:text-black" href="C:\Users\ELCOT\OneDrive\Desktop\tailwind\index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="C:\Users\ELCOT\OneDrive\Desktop\tailwind\product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="C:\Users\ELCOT\OneDrive\Desktop\tailwind\contact.html">Contact</a>
+            </li>
+        </u1>
+
+    </section>
 
     <!--header-->
     <section class="bg-green-100 p-4 md:p-10 flex justify-center  ">
@@ -161,10 +179,10 @@
        <h1 class="font-bold text-4xl">Greenden</h1>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam reprehenderit iure</p>
 <p>@2022 Greenden. All rights reserved.</p>
+    </section>
 
 
-
-
+<script src="index.js"></script>
     </body>
 
 
